@@ -2,10 +2,10 @@
   "$schema": "https://mintlify.com/schema.json",
   "name": "Lollipop",
   "logo": {
-    "dark": "/logo/dark.svg",
-    "light": "/logo/light.svg"
+    "dark": "/logo/dark.png",
+    "light": "/logo/light.png"
   },
-  "favicon": "/favicon.svg",
+  "favicon": "/favicon.png",
   "colors": {
     "primary": "#0D9373",
     "light": "#07C983",
@@ -18,43 +18,58 @@
   "topbarLinks": [
     {
       "name": "Support",
-      "url": "mailto:hi@mintlify.com"
+      "url": "mailto:info.lollipoplabs@gmail.com"
     }
   ],
-  "topbarCtaButton": {
-    "name": "Dashboard",
-    "url": "https://dashboard.mintlify.com"
-  },
   "tabs": [
     {
       "name": "API Reference",
       "url": "api-reference"
     }
   ],
-  "anchors": [
-    {
-      "name": "Documentation",
-      "icon": "book-open-cover",
-      "url": "https://mintlify.com/docs"
-    },
-    {
-      "name": "Community",
-      "icon": "slack",
-      "url": "https://mintlify.com/community"
-    },
-    {
-      "name": "Blog",
-      "icon": "newspaper",
-      "url": "https://mintlify.com/blog"
-    }
-  ],
   "navigation": [
     {
-      "group": "Get Started",
+      "group": "INTRODUCTION",
       "pages": [
-        "introduction",
-        "quickstart",
-        "development"
+        "home",
+        "vision",
+        "whitepaper"
+      ]
+    },
+    {
+      "group": "SERVICE GUIDE",
+      "pages": [
+        {
+          "group": "Lollipop",
+          "pages": [
+            "service-guide/lollipop/overview",
+            "service-guide/lollipop/what-is-different",
+            "service-guide/lollipop/l2-fee",
+            "service-guide/lollipop/gas-estimation",
+            "service-guide/lollipop/running-a-local-development-environment",
+            "service-guide/lollipop/how-to-create-a-standard-erc20-token-in-l2",
+            "service-guide/lollipop/bridging-l1-and-l2-standard-bridge",
+            "service-guide/lollipop/bridging-l1-and-l2-cross-domain-messenger",
+            "service-guide/lollipop/add-lollipop-on-metamask",
+            "service-guide/lollipop/networks-and-public-endpoints",
+            "service-guide/lollipop/contract-addresses"
+          ]
+        },
+        {
+          "group": "Lollipop Bridge",
+          "pages": [
+            "service-guide/lollipop-bridge/overview",
+            {
+              "group": "Bridge",
+              "pages": [
+                "service-guide/lollipop-bridge/bridge/deposit",
+                "service-guide/lollipop-bridge/bridge/withdraw"
+              ]
+            },
+            "service-guide/lollipop-bridge/wallet",
+            "service-guide/lollipop-bridge/contract-addresses"
+          ]
+        }
       ]
     },
     {
@@ -84,8 +99,10 @@
     }
   ],
   "footerSocials": {
-    "x": "https://x.com/mintlify",
-    "github": "https://github.com/mintlify",
-    "linkedin": "https://www.linkedin.com/company/mintsearch"
+    "website": "https://www.lollipop.network",
+    "telegram": "https://t.me/lollipop3labs",
+    "x": "https://twitter.com/Lollipop_3labs",
+    "facebook": "https://www.facebook.com/lollipop3labs",
+    "medium": "https://medium.com/@lollipop3labs"
   }
 }
