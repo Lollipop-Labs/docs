@@ -40,10 +40,6 @@
             "service-guide/lollipop/what-is-different",
             "service-guide/lollipop/l2-fee",
             "service-guide/lollipop/gas-estimation",
-            "service-guide/lollipop/running-a-local-development-environment",
-            "service-guide/lollipop/how-to-create-a-standard-erc20-token-in-l2",
-            "service-guide/lollipop/bridging-l1-and-l2-standard-bridge",
-            "service-guide/lollipop/bridging-l1-and-l2-cross-domain-messenger",
             "service-guide/lollipop/add-lollipop-on-metamask",
             "service-guide/lollipop/networks-and-public-endpoints",
             "service-guide/lollipop/contract-addresses"
